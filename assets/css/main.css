@@ -1,13 +1,34 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Taviraj:300,400,700,300i,400i,700i");
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 /*
 	Transitive by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #333; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg,#fff,#999);
+	box-shadow: 0 0 5px 1px white;
+	border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #aaa; 
+  }
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1672,7 +1693,7 @@
 		}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 2rem;
 		text-transform: uppercase;
 	}
 
@@ -3443,6 +3464,7 @@
 			#header > .logo a {
 				font-size: 1.25rem;
 				color: #FFF;
+				font-family: 'Pacifico', cursive;
 				text-decoration: none;
 			}
 
@@ -4226,4 +4248,13 @@
 				width: calc(100% + 2rem);
 			}
 
+		}
+		.quote_day{
+			font-size: 1.5em;
+		}
+		.quote_symbol{
+			position: relative;
+			float: left;
+			left: 18%;
+			font-size: 7em;
 		}
