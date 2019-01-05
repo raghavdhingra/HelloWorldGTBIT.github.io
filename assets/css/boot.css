@@ -10,13 +10,15 @@
 	background: transparent;
 }
 
-.gl{
-	text-align: center;
+.top{
+	
 	font-size: 70px;
 	color: white;
 	font-family: 'Amatic SC', cursive;
 	position: relative;
 	top: 20px;	
+	
+	text-align: center;
 }
 
 .hwgallery{ 
@@ -38,14 +40,18 @@ hr.style18:before {
   }
   hr.style18 { 
 	height: 30px;
-	width: 510px; 
-	margin-left: 500px;
+	/* width: 10em; */
+	margin: auto;
 	border-style: solid; 
 	border-color: #8c8b8b; 
 	border-width: 1px 0 0 0; 
 	border-radius: 20px; 
   } 
   .left{
-	  margin-left: 180px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top:30px;
+	
+
+	  
   }
-  
