@@ -25,9 +25,7 @@
 	background: black;
 	color: white;
 	
-	
-	
-}
+	}
 hr.style18:before { 
 	display: block; 
 	content: ""; 
@@ -51,6 +49,10 @@ hr.style18:before {
 	  margin-left: auto;
 	  margin-right: auto;
 	  margin-top:30px;
+	  display: flex;
+	  flex-direction: column;
+	  align-self: center;
+	
 	
 
 	  
