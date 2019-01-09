@@ -74,6 +74,7 @@ hr.style18:before {
 	   right: 0;
 	   display: flex;
 	   flex-direction: row;
+	   border: rgba(240, 72, 30, 0.774) 2px dotted;
 	 
  }
 
@@ -119,6 +120,8 @@ color: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefo
 	width: 700px;
 	
 	
+	
+	
 }
 .btn{
 	margin-top: 16px;
@@ -148,4 +151,28 @@ left: 900px;
 
 .hide{
 	z-index: -2;
+}
+
+@media screen and (max-width: 1000px){
+	.popup{
+		width: 80%;
+	}
+	.poster{
+		width: 100%;
+	
+	}
+	.image{
+		width:100%;
+		height: 15%;
+	}
+	.content{ 
+		
+		
+	}
+	.hwgallery{
+		width: 100%;
+	}
+
+
+
 }
