@@ -176,8 +176,11 @@ left: 900px;
 		.thumbnail{
 			width: 40%;
 			height: 18%;
+			background: transparent;
+			border: transparent;
 			}
 			.thumbnail2{
+				border: 3px white solid; 
 				
 			}
 
