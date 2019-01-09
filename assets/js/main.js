@@ -137,3 +137,22 @@
 	});
 
 })(jQuery);
+var ban=$("#banner");
+var far= $(".far");
+var popup=$(".popup");
+var one=$("#one");
+
+ban.click(function(){
+	console.log("clicked");
+	popup.addClass("hide");
+	far.addClass("hide");
+	
+});
+
+one.click(function(){
+	console.log("clicked");
+	popup.addClass("hide");
+	far.addClass("hide");
+	
+});
+

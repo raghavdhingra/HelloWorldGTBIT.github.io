@@ -46,14 +46,144 @@ hr.style18:before {
 	border-radius: 20px; 
   } 
   .left{
-	  margin-left: auto;
-	  margin-right: auto;
+	  margin-left: 0 auto;
+	  margin-right: 0 auto;
 	  margin-top:30px;
 	  display: flex;
 	  flex-direction: column;
-	  align-self: center;
+	  align-self: center; 
+	  align-content: center;
+	  overflow: hidden;
+
+  }
+  .popup{
+	background: black;
+	  width: 1000px;
+	  height: 600px;
+	  position: absolute;
+	  z-index: 3;
+	 
+	  
+	  overflow-y: auto;
+	
+	  margin: auto;
+      
+       top: 0; 
+       left: 0;
+       bottom: 0; 
+	   right: 0;
+	   display: flex;
+	   flex-direction: row;
+	   border: rgba(240, 72, 30, 0.774) 2px dotted;
+	 
+ }
+
+  
+pre{
+	background-color:  transparent;
+	border: transparent;
+	margin: 0px;
+	color: #FC466B;  /* fallback for old browsers */
+	color: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 	
 
-	  
-  }
+}
+.image{
+	
+	width: 280px;
+	height: 157.5px;
+	margin-top: 20px;
+	overflow: hidden;
+	
+	
+}
+
+.poster{
+	
+	/* border: 2px red solid; */
+	width: 300px;
+	/* color : white; */
+	color: #c94b4b;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	overflow-x: auto;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	
+}
+
+.content{
+	overflow-y: auto;
+	/* border: 2px red solid; */
+	width: 700px;
+	
+	
+	
+	
+}
+.btn{
+	margin-top: 16px;
+	margin-left: 6px;
+
+	padding-bottom: 1px;
+	color: white;
+	
+	
+	border-radius: 50px;
+}
+b{
+	color: white;
+}
+.underline{
+	text-decoration: underline;
+}
+li{
+	margin-left: 3px;
+}
+.far{position: absolute;
+left: 900px;
+	 z-index: 4;
+	height: 50px;
+	width:50px;
+}
+
+.hide{
+	z-index: -2;
+}
+
+@media screen and (max-width: 1000px){
+	.popup{
+		width: 80%;
+	}
+	.poster{
+		width: 100%;
+	
+	}
+	.image{
+		width:100%;
+		height: 15%;
+	}
+	.content{ 
+		
+	}
+	.left{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	margin-left: 10%;}
+		.thumbnail{
+			width: 40%;
+			height: 18%;
+			background: transparent;
+			border: transparent;
+			}
+			.thumbnail2{
+				border: 3px white solid; 
+				
+			}
+
+
+
+}
