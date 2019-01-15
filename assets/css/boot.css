@@ -9,7 +9,6 @@
 	border: transparent;
 	background: transparent;
 }
-
 .top{
 	font-size: 70px;
 	color: white;
@@ -24,12 +23,6 @@
 	display: grid;
 	grid-auto-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
-	text-align: center;
-}
-
-.hwgallery{ 
-	background: black;
-	color: white;
 	}
 hr.style18:before { 
 	display: block; 
@@ -69,8 +62,6 @@ hr.style18:before {
 	  font-family: 'Acme', sans-serif !important;
 	  overflow-y: auto;
 	  margin: auto;
-	  overflow-y: auto;
-	  margin: auto;
        top: 0; 
        left: 0;
        bottom: 0; 
@@ -86,12 +77,14 @@ pre{
 	color: #FC466B;  /* fallback for old browsers */
 	color: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
 	color: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .image{
 	width: 280px;
 	height: 157.5px;
 	margin-top: 20px;
 	overflow: hidden;
 }
+
 .poster{
 	/* border: 2px red solid; */
 	width: 300px;
@@ -101,12 +94,7 @@ pre{
 	color: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	overflow-x: auto;
 	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-color: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
-color: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	overflow-x: auto;
-	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-	}
+}
 
 .content{
 	overflow-y: auto;
@@ -132,13 +120,6 @@ li{
 .hide{
 	z-index: -2;
 }
-.far{position: absolute;
-left: 900px;
-	 z-index: 4;
-	height: 50px;
-	width:50px;
-}
-
 @media screen and (max-width: 1000px){
 	.popup{
 		width: 80%;
