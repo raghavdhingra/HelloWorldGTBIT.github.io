@@ -137,3 +137,25 @@
 	});
 
 })(jQuery);
+var ban=$("#banner");
+var popup=$(".popup");
+var one=$("#one");
+
+ban.click(function(){
+	console.log("clicked");
+	popup.addClass("hide");
+	far.addClass("hide");
+	
+});
+
+one.click(function(){
+	console.log("clicked");
+	popup.addClass("hide");
+	far.addClass("hide");
+	
+});
+
+const close_pop = () => {
+	document.getElementById('pop_up').style.opacity=0;
+	document.getElementById('pop_up').style.zIndex=-1;
+}
